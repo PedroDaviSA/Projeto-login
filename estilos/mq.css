@@ -8,6 +8,7 @@
 
     section#login {
         width: 90vh;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -25,6 +26,13 @@
     div#formulario > p {
         font-size: 1em;
     }
+
+    div.campo > input {
+        width: 300px;
+        margin-left: 27px;
+        border-radius: 5px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -50,5 +58,9 @@
 
     div#formulario > p {
         font-size: 1em;
+    }
+
+    div.campo > input {
+        width: 410px;
     }
 }
